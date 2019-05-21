@@ -1,7 +1,7 @@
 ## npm包测试
 
 ![](https://img.shields.io/npm/v/npm.svg)
-![](https://img.shields.io/github/issues/badges/shields.svg)
+![](https://img.shields.io/badge/language-react-orange.svg)
 ![](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 基于react的demo测试

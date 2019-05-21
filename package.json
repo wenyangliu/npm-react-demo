@@ -1,9 +1,12 @@
 {
   "name": "@wenyangliu/react-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react demo",
   "main": "lib/index.js",
-  "repository": "npm-react-demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wenyangliu/npm-react-demo.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open development",
@@ -12,6 +15,7 @@
     "deploy": "gh-pages -d example/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
+  "homepage": "https://github.com/wenyangliu/npm-react-demo.git",
   "keywords": ["react", "demo"],
   "author": "wenyangliu",
   "license": "MIT",
